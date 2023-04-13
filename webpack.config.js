@@ -5,7 +5,7 @@ const deps = require("./package.json").dependencies;
 module.exports = {
 
     output: {
-      publicPath: argv.mode == "development" ? "http://localhost:3002/" : "https://fantastic-mf-colorlist.netlify.app/",
+      publicPath: "https://fantastic-mf-colorlist.netlify.app/",
       //publicPath: "http://localhost:3002/",
       //publicPath: "https://fantastic-mf-colorlist.netlify.app/",
     },
